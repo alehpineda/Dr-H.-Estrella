@@ -11,7 +11,8 @@ ul {margin: 10px 0;padding: 0;}
 ul li {}
 blockquote, q {quotes:none;background: url(../img/icons/quote.png) no-repeat 20px 22px #ebf0f1;padding: 20px 30px 20px 90px;margin: 20px 0;font-style: italic;}
 a {color: #0095d4;}
-p {padding: 0 0 10px;}
+p {padding: 0 0 12px;
+    text-align: justify;}
 a:hover {text-decoration: underline;}
 strong {font-weight: bold;}
 span {vertical-align:baseline;}
