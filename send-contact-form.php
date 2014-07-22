@@ -15,13 +15,13 @@ if($_POST) {
     $body .= "Customer name: " . $cust_name . "<br/>";
     $body .= "Message: " . $cust_message;
     if(mail($email_to, $email_subject, $body, $header)) {
-        echo '<strong>Contact form was sent successfully.</strong><br/>Thank you for contacting us. We will be in touch with you very soon.';
+        echo '<strong>Tu email se ha enviado con exito.</strong><br/>Gracias por contactarnos. Nos comunicaremos contigo a la brevedad.';
         echo '<script>$("#contact-form").each(function(){
                     this.reset();
                 });
                 </script>';
     } else {
-        echo "<strong>Error sending mail, please contact administrator.</strong>";
+        echo "<strong>Error al enviar tu email, por favor contacta al administrador.</strong>";
     }
 
 }

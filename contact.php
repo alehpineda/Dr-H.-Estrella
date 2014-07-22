@@ -101,7 +101,7 @@
                         <img src="img/gallery/banner-contact.jpg" alt="" />
                         <div class="carousel-caption">
                             <h2>Contactanos</h2>
-                            <h3>Forma de contacto e Inoformacion</h3>
+                            <h3>Forma de contacto e Información</h3>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
     <div class="container">
         <div class="subline">
           
-            <a href="contact.html" class="more col-xs-4 col-xxs-12 pull-right"><strong>Contactanos</strong> queremos escucharte</a>
+            <a href="contact.html" class="more col-xs-4 col-xxs-12 pull-right"><strong>Contactanos! </strong> Queremos escucharte.</a>
             <div class="shadow"></div>
         </div>
     </div>
@@ -125,7 +125,7 @@
             <section class="col-sm-9 pull-left">
                 <div class="boxes style4 well noradius noshadow">
                     <div class="title"><span>Comunicate</span></div>
-                    <p class="tac">Estamos ansiosos por escucharte , no dudes en solicitar mas informacion enviandonos tus datos</p>
+                    <p class="tac">Estamos ansiosos por escucharte, no dudes en solicitar mas información enviandonos tus datos.</p>
 
                     <form id="contact-form" class="row mt10 style1" action="#" method="post">
                         <input type="hidden" name="email_to" value="<?php echo $email_to ?>">
@@ -153,11 +153,11 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Contact form</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Tu email se ha enviado con exito.</h4>
                                 </div>
                                 <div class="modal-body"></div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn right" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn right" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +211,7 @@
                 <div class="header">Contactanos</div>
                 <ul>
                     <li><img src="img/icons/user.png" alt=""/>Cirujano - Dr. H. Estrella</li>
-                    <li><img src="img/icons/point.png" alt=""/>Consultorio 4-Torre de Especialidades-Hospital Angeles Torreon, Torreon, Coah.</li>
+                    <li><img src="img/icons/point.png" alt=""/>Consultorio 4 - Torre de Especialidades - Hospital Angeles Torreon, Torreon, Coah.</li>
                     <li><img src="img/icons/phone.png" alt=""/>+52 (871) 7123456</li>
                     <li><img src="img/icons/address.png" alt=""/><a href="#">information@drestrella.com</a></li>
                 </ul>
