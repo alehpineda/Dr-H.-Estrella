@@ -40,8 +40,8 @@
 <div id="body">
 <header id="header" class="container">
     <ul class="contact">
-        <li><span>+52 (871) 7 12 34 56 </span></li>
-        <li><a href="mailto:jdiego.hinojosa@gmail.com">info@drestrella.com</a></li>
+        <li><span>Tel: 222-5453</span></li>
+        <li><a href="mailto:contacto@drhestrella.com">contacto@drhestrella.com</a></li>
     </ul>
 
     <div class="logo"><a title="" href="index.html"><img src="img/unistar-logo.png" alt=""/></a></div>
@@ -60,34 +60,48 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">Inicio</a></li>
-                    <li class="dropdown">
-                        <a href="index.html" class="dropdown-toggle">Servicios<b class="caret"></b></a>
+                    <li class="dropdown"><a href="#procedimientos" class="dropdown-toggle">Procedimientos<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li class="first"><a href="index.html">Rostro</a>
+                            <li class="first"><a href="cuerpo.html">Contorno Corporal</a>
                                 <ul class="dropdown-menu">
-                                    <li class="first"><a href="index.html">Rostro</a></li>
-                                    <li><a href="index.html">Cara</a></li>
-                                    <li><a href="index.html">Levantamiento de ceja</a></li>
-                                    <li><a href="index.html">Cuello</a></li>
-				    <li><a href="index.html">Rinoplastia</a></li>
-                                    
+                                    <li class="first"><a href="cuerpo.html#abdomen">Reducción de Abdomen</a></li>
+                                    <li><a href="cuerpo.html#lipo">Liposucción</a></li>
+                                    <li><a href="cuerpo.html#lipoescultura">Lipoescultura</a></li>
                                 </ul>
                             </li>
-                            <li><a href="index.html">Cuerpo</a></li>
-                            <li><a href="index.html">Pecho</a></li>
-                            <li><a href="index.html">Piel</a></li>
-                            <li><a href="index.html">Procedimiento para Hombres</a></li>
+                            <li><a href="rostro.html">Facial</a>
+                                <ul class="dropdown-menu">
+                                    <li class="first"><a href="rostro.html#facial">Rejuvenecimiento Facial</a></li>
+                                    <li><a href="rostro.html#parpados">Parpados</a></li>
+                                    <li><a href="rostro.html#mejillas">Mejillas</a></li>
+                                    <li><a href="rostro.html#orejas">Orejas</a></li>
+                                    <li><a href="rostro.html#lobulos">Lobulos</a></li>
+                                    <li><a href="rostro.html#labios">Labios</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pecho.html">Pecho</a>
+                                <ul class="dropdown-menu">
+                                    <li class="first"><a href="pecho.html#aumento">Aumento de Busto</a></li>
+                                    <li><a href="pecho.html#levantamiento">Levantamiento de Busto</a></li>
+                                    <li><a href="pecho.html#reduccion">Reduccion de Busto</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="piel.html">Piel</a>
+                                <ul class="dropdown-menu">
+                                    <li class="first"><a href="piel.html#peeling">Exfoliación Química</a></li>
+                                    <li class="first"><a href="piel.html#dermo">Dermoabrasión</a></li>
+                                </ul>                            
+                            </li>
+                            <li><a href="nariz.html">Nariz</a>
+                                <ul class="dropdown-menu">
+                                    <li class="first"><a href="nariz.html#rino">Rinoplastia</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    <li><a href="index.html">Dr. Estrella</a></li>
+                    <li><a href="drestrella.html">Dr. Estrella</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </div>
-
-            <ul class="fright lang">
-                <li><a class="active" href="#">EN</a></li>
-                <li><a href="#">ES</a></li>
-                
-            </ul>
         </nav>
     </div>
 </header>
@@ -171,11 +185,13 @@
                     <div class="content well">
                         <p><strong>Empieza una nueva etapa.</p>
                         <ul class="style6">
-                            <li><strong>Telefono</strong>+52(871)7123456</li>
-                            <li><strong>Correo</strong><a href="#">info@drestrella.com</a></li>
-                            <li><strong>Skype</strong>dr.estrella</li>
-                            <li><strong>Direccion</strong>Paseo del Tecnologico 900, Villa la Rosita</li>
-                            <li><strong>Celular</strong>8711678901</li>
+                            <li><strong>Telefono</strong>222-5453</li>
+                            <li><strong>Correo</strong><a href="mailto:contacto@drhestrella.com">contacto@drhestrella.com</a></li>
+                            <li><strong>Direccion</strong><br>Consultorio 910, Piso 9. 
+                                <br>Paseo del Tecnologico No. 909. 
+                                <br>Col. Residencial Tecnologico.
+                                <br>Torreón, Coah.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -202,7 +218,7 @@
                 <div class="header">Suscribete para recibir nuestras promociones</div>
                 <p> </p>
                 <form id="newsletter" action="index.html" method="get">
-                    <input class="query" type="text" value="Enter your email address" onfocus="if($(this).val()=='Enter your email address'){$(this).val('');}" onBlur="if($(this).val()==''){$(this).val('Enter your email address');}">
+                    <input class="query" type="text" value="Ingresa tu Email" onfocus="if($(this).val()=='Ingresa tu email'){$(this).val('');}" onBlur="if($(this).val()==''){$(this).val('Ingresa tu email');}">
                     <input class="button" type="submit" value="ok" name="">
                 </form>
             </div>
@@ -210,10 +226,14 @@
             <div class="box2 pull-left-sm">
                 <div class="header">Contactanos</div>
                 <ul>
-                    <li><img src="img/icons/user.png" alt=""/>Cirujano - Dr. H. Estrella</li>
-                    <li><img src="img/icons/point.png" alt=""/>Consultorio 4 - Torre de Especialidades - Hospital Angeles Torreon, Torreon, Coah.</li>
-                    <li><img src="img/icons/phone.png" alt=""/>+52 (871) 7123456</li>
-                    <li><img src="img/icons/address.png" alt=""/><a href="#">information@drestrella.com</a></li>
+                    <li><img src="img/icons/user.png" alt=""/>Dr. Héctor Israel Estrella Camorlinga</li>
+                    <li> Cirugía Plástica Estética 
+                        y Reconstructiva</li>
+                    <li><img src="img/icons/point.png" alt=""/> Consultorio 910, Piso 9
+                        <br>Paseo del Tecnologico #909
+                        <br>Hospital Angeles. Torreón, Coah.</li>
+                    <li><img src="img/icons/phone.png" alt=""/>222-5453</li>
+                    <li><img src="img/icons/address.png" alt=""/><a href="mailto:contacto@drhestrella.com">contacto@drhestrella.com</a></li>
                 </ul>
             </div>
 
@@ -223,11 +243,6 @@
                 <div class="addthis_toolbox addthis_default_style addthis_16x16_style">
                     <a class="addthis_button_facebook"><span><span></span></span></a>
                     <a class="addthis_button_email"><span><span></span></span></a>
-                    <a class="addthis_button_twitter"><span><span></span></span></a>
-                    <a class="addthis_button_google_plusone_share"><span><span></span></span></a>
-                    <a class="addthis_button_in"><span><span></span></span></a>
-                    <a class="addthis_button_rss"><span><span></span></span></a>
-                    <a class="addthis_button_compact"><span><span></span></span></a>
                 </div>
             </div>
         </div>
