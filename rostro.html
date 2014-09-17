@@ -26,6 +26,9 @@
     <script src="js/jquery.reject.js"></script> <!-- jQuery Brower Rejection -->
     <script src="js/jquery.BlackAndWhite.js"></script> <!-- jQuery Black and White Images -->
     <script src="js/template.js"></script> <!-- UNISTAR Template javascript -->
+    
+    <!-- JS and Css custom Files -->
+    <script src="js/jquery.cycle2.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -112,7 +115,7 @@
                 <div id="carousel-small" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="img/gallery/banner-pricing.jpg" alt="" />
+                            <img src="img/banners/b-g.jpg" alt="" />
                             <div class="carousel-caption">
                                 <h3>Dr. Héctor Estrella Camorlinga</h2>
                                 <h5>Cirujano Plástico</h3>
@@ -177,10 +180,21 @@
                             <h4>Rejuvenecimiento Facial, Lifting, Estiramiento Facial</h4>
                             <br>
                             <br>
-                                <div class="col-md-3 pull-right">
-                                    <img src="img/gallery/01.jpg" alt class="pull-right">
+                                <div class="col-md-6 pull-right">
+                                <div class="cycle-slideshow"
+                                    data-cycle-loader=true
+                                    data-cycle-fx="scrollHorz"
+                                    data-cycle-swipe=true
+                                    data-cycle-swipe-fx=scrollHorz
+                                     >
+                                        <img src="img/proce/01-facial/1.jpg" alt class="active pull-right">
+                                        <img src="img/proce/01-facial/2.png" alt class="pull-right">
+                                        <img src="img/proce/01-facial/3.png" alt class="pull-right">
+                                        <img src="img/proce/01-facial/4.png" alt class="pull-right">
+                                    </div>                                    
+                                    
                                 </div>
-                                <div class="col-md-9 pull-left">
+                                <div class="col-md-6 pull-left">
                             <h3>Descripción</h3>
                             <p>
                                 El lifting, estiramiento facial, ritidectomía es un procedimiento quirúrgico para mejorar los signos visibles de envejecimiento de la cara y el cuello. Conforme el individuo envejece, la piel, la grasa y los músculos faciales, que se encuentran fijos a los huesos de la cara a través de ligamentos, tienden a descender por efecto de la gravedad debido a una disminución en el tono de los mismos. 

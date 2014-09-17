@@ -26,6 +26,9 @@
     <script src="js/jquery.reject.js"></script> <!-- jQuery Brower Rejection -->
     <script src="js/jquery.BlackAndWhite.js"></script> <!-- jQuery Black and White Images -->
     <script src="js/template.js"></script> <!-- UNISTAR Template javascript -->
+    
+    <!-- JS and Css custom Files -->
+    <script src="js/jquery.cycle2.min.js"></script>  
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -112,7 +115,7 @@
                 <div id="carousel-small" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="img/gallery/banner-pricing.jpg" alt="" />
+                            <img style="width:100%" src="img/banners/b-pecho.jpg" alt="" />
                             <div class="carousel-caption">
                                 <h3>Dr. Héctor Estrella Camorlinga</h2>
                                 <h5>Cirujano Plástico</h3>
@@ -145,10 +148,21 @@
                                 <h4>Implantes Mamarios</h4>
                                 <br>
                                 <br>
-                                <div class="col-md-3 pull-left">
-                                    <img src="img/gallery/01.jpg" alt class="pull-left">
+                                <div class="col-md-5 pull-left">
+                                    
+                                <div class="cycle-slideshow"
+                                    data-cycle-loader=true
+                                    data-cycle-fx="scrollHorz"
+                                    data-cycle-swipe=true
+                                    data-cycle-swipe-fx=scrollHorz
+                                     >
+                                        <img src="img/proce/11-aumento/1.jpg" alt class="active pull-left">
+                                        <img src="img/proce/11-aumento/2.jpg" alt class="pull-left">
+                                        <img src="img/proce/11-aumento/3.jpg" alt class="pull-left">
+                                        <img src="img/proce/11-aumento/4.jpg" alt class="pull-left">
+                                    </div>
                                 </div>
-                                <div class="col-md-9 pull-right">
+                                <div class="col-md-7 pull-right">
                                 <h3>Descripción</h3>
                             
                                 La mamoplastia de aumento es un procedimiento quirúrgico destinado a aumentar el tamaño y mejorar la forma del busto mediante la colocación de implantes (prótesis) mamarios.

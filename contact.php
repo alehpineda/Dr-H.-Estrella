@@ -112,12 +112,12 @@
             <div id="carousel-small" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="img/gallery/banner-contact.jpg" alt="" />
+                        <img src="img/banners/b-rino.jpg" alt="" />
                         <div class="carousel-caption">
                             <h2>Contactanos</h2>
                             <h3>Forma de contacto e Información</h3>
                         </div>
-                    </div>
+                    </div>                 
                 </div>
             </div>
         </div>
