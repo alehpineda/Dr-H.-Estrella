@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dr Estrella | Cirujia Plástica</title>
+    <title>Cirugia Plástica | Torreón</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
